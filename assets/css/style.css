@@ -22,11 +22,16 @@ body {
 header {
     background-color: rgb(5, 151, 5);
     font-family: agbalumo, serif;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px rgb(5, 80, 5);
 }
 
 header>a {
     text-decoration: none;
-    color: #eeffee;
+    color: #ddeedd;
     letter-spacing: 2px;
 }
 
