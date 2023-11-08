@@ -135,4 +135,13 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    #logo {
+        font-size: 250%;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 118px;
+    }
 }
