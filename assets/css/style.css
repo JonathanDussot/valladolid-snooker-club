@@ -27,6 +27,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px rgb(5, 80, 5);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 header > a {
@@ -61,6 +64,32 @@ nav a {
 .active {
     border-bottom: 2px solid #ddeedd;
 }
+
+/* Navbar styles with dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: rgb(5, 151, 5);
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px rgb(5, 80, 5);
+    display: none;
+    top:100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display:none;
+}
+
+.nav-toggle-label {
+    font-size: 3rem;
+}
+
 
 /*main content */
 main {
