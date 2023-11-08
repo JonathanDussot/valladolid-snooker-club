@@ -96,9 +96,38 @@ main {
     background-color: aqua;
     /* Make main take up any surplus space */
     flex: 1 0 auto;
+    margin-top: 141px;
 }
 
 /* Footer */
 footer {
     background-color: brown;
+}
+
+/* Media query for tablets */
+
+@media screen and (min-width:768px) {
+/*  header */    
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    main {
+        margin-top: 94px;
+    }
 }
