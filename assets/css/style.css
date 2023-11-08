@@ -29,10 +29,37 @@ header {
     box-shadow: 0 2px 2px rgb(5, 80, 5);
 }
 
-header>a {
+header > a {
     text-decoration: none;
     color: #ddeedd;
+}
+
+h1 {
     letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav a {
+    list-style: none;
+}
+
+#menu {
+    font-size: 125%;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+#menu a {
+    color: #ddeedd;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 2px solid #ddeedd;
 }
 
 /*main content */
