@@ -18,6 +18,12 @@ body {
     font-family: montserrat, sans-serif;
 }
 
+h1, h2, h3 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ddeedd;
+}
+
 /* header */
 header {
     background-color: rgb(5, 151, 5);
@@ -34,7 +40,6 @@ header {
 
 header > a {
     text-decoration: none;
-    color: #ddeedd;
 }
 
 h1 {
@@ -105,6 +110,24 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/Snooker-Cue-and-Balls.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(5, 151, 5, 0.5);
+    font-size: 120%;
+    position: absolute;
+    top: 45px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 15%;
+}
+
+#first {
+    color:gold;
+    text-transform: lowercase;
 }
 
 /* Footer */
@@ -167,6 +190,13 @@ footer {
     main {
         margin-top: 118px;
     }
+
+    #cover-text {
+        width: 350px;
+        left: 70px;
+        top: 200px;
+        font-size: 140%;
+    }
 }
 
 /* larger devices, laptops and desktops (992+) */
@@ -178,5 +208,10 @@ footer {
     /* main  */
     main {
         margin-top: 59px;
+    }
+
+    #cover-text {
+        width: 450px;
+        font-size: 170%;
     }
 }
