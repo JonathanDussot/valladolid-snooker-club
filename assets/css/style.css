@@ -139,12 +139,14 @@ hr {
 /* about section */
 
 #about, #health {
-    background-color: #ffffff;
+    background-color: #e6dedea6;
 }
 
 .about-section, .about-section>h3 {
     color: #1a1a1a;
     text-align: center;
+    font-weight: bold;
+    padding: 5px 10px;
 }
 
 #point1 {
@@ -153,11 +155,11 @@ hr {
 }
 
 #coordination {
-    background-color: #b6b3b3;
+    background-color: #c9c7c7;
 }
 
 #point2 {
-    color: rgb(6, 190, 6);
+    color: rgb(2, 167, 2);
     font-size: 120%;
 }
 
