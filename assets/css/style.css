@@ -136,6 +136,26 @@ hr {
     height: 2px;
 }
 
+/* about section */
+
+#about {
+    background-color: #1a1a1a;
+}
+
+.about-section {
+    color: #ffffff;
+    text-align: center;
+}
+
+#point {
+    color: red;
+    font-size: 120%;
+}
+
+.fit-picture {
+    width: 40px;
+}
+
 /* Payment section */
 
 table, td {
