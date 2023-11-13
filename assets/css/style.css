@@ -183,6 +183,37 @@ thead, tfoot {
     color:#ffffff;
 }
 
+/* contact info */
+
+#contact-info {
+    background-color: #1a1a1a;
+}
+
+#contact {
+    font-size: 170%;
+    padding: 10px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.stand-out {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.info {
+    border: 1px dotted #1a1a1a;
+}
+
+/* map of location */
+
+iframe {
+    border: 1px solid black;
+    margin: 0 2rem;
+}
+
 /* Footer */
 footer {
     background-color: black;
@@ -201,12 +232,6 @@ footer {
     padding: 5%;
     color: #ddeedd;
 }
-
-iframe {
-    border: 1px solid black;
-    margin: 0 2rem;
-}
-
 
 /* Media query for mobile S and larger (320+) */
 
