@@ -130,6 +130,23 @@ main {
     text-transform: lowercase;
 }
 
+hr {
+    border-top: 1px solid black;
+    margin: 5px 0;
+    height: 2px;
+}
+
+/* Payment section */
+
+table, td {
+    border: 1px solid black;
+}
+
+thead, tfoot {
+    background-color: rgba(5, 151, 5);
+    color:#ffffff;
+}
+
 /* Footer */
 footer {
     background-color: black;
@@ -186,7 +203,7 @@ footer {
         font-size: 250%;
         margin: 0 0.5rem;
     }
-
+/* main */
     main {
         margin-top: 118px;
     }
@@ -196,6 +213,10 @@ footer {
         left: 70px;
         top: 200px;
         font-size: 140%;
+    }
+
+    th, td {
+        font-size: 150%;
     }
 }
 
@@ -214,4 +235,10 @@ footer {
         width: 450px;
         font-size: 170%;
     }
+
+    #table {
+        display: flex;
+        justify-content: center;
+    }
+    
 }
