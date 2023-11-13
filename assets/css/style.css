@@ -230,9 +230,15 @@ footer {
 #social-networks i {
     font-size: 200%;
     padding: 5%;
+}
+
+a {
     color: #ddeedd;
 }
 
+a:hover {
+    color:rgb(2, 167, 2);
+}
 /* Media query for mobile S and larger (320+) */
 
 @media screen and (min-width:320px) {
