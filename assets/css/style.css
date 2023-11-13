@@ -138,17 +138,31 @@ hr {
 
 /* about section */
 
-#about {
-    background-color: #1a1a1a;
+#about, #health {
+    background-color: #ffffff;
 }
 
-.about-section {
-    color: #ffffff;
+.about-section, .about-section>h3 {
+    color: #1a1a1a;
     text-align: center;
 }
 
-#point {
-    color: red;
+#point1 {
+    color: rgb(255, 36, 36);
+    font-size: 120%;
+}
+
+#coordination {
+    background-color: #b6b3b3;
+}
+
+#point2 {
+    color: rgb(6, 190, 6);
+    font-size: 120%;
+}
+
+#point3 {
+    color: rgb(26, 26, 231);
     font-size: 120%;
 }
 
