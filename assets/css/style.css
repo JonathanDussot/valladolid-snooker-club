@@ -209,9 +209,15 @@ thead, tfoot {
 
 /* map of location */
 
-iframe {
+#map {
     border: 1px solid black;
     margin: 0 2rem;
+    height: 60vh;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -219,15 +225,22 @@ iframe {
 /* Bookings */
 .container {
     background-color: rgba(5, 151, 5);
-    box-shadow: inset;
-    height: 300px;
+    height: 200px;
     width: 100%;
     position: relative;
-    margin-top: 118px;
+    margin: 100px auto;
+    font-size: 130%;
+}
+
+.container-times {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border: 1.5px dotted #ffffff;
 }
 
 #booking-heading {
-    font-size: bold 700;
+
 }
 
 /* Footer */
