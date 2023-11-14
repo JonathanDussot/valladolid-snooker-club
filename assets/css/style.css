@@ -214,6 +214,22 @@ iframe {
     margin: 0 2rem;
 }
 
+
+
+/* Bookings */
+.container {
+    background-color: rgba(5, 151, 5);
+    box-shadow: inset;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin-top: 118px;
+}
+
+#booking-heading {
+    font-size: bold 700;
+}
+
 /* Footer */
 footer {
     background-color: black;
