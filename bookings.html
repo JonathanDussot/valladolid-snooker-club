@@ -37,14 +37,15 @@
     <!--Main content-->
     <main>
         <div class="container">
-            <form action="" method="POST">
+            <form method="post">
                 <div class="container-times text-center">
                     <h2 class="booking-heading">Opening Hours:</h2>
                     <p>Monday - Saturday:</p>
                     <p>9:00 - 22:00</p>
+                    <img class="fit-picture2" src="assets/images/Snooker-Cue-and-Balls.jpg" alt="white and red snooker balls" aria-label="a picture of a white and red snooker balls">
                 </div>
-                <fieldset class="booking-data">
-                    <legend id="book">Book your session</legend>
+                <fieldset class="booking-data" id="data-info">
+                    <legend class="book">Book your session</legend>
                     <label for="date">Booking Date:<input type="date" id="date" name="date" required></label>
                     <label for="time">Time:<input type="time" id="time" name="time" list="avail" required></label>
                         <datalist id="avail">
@@ -66,11 +67,18 @@
                     <label for="last-name">Last Name:<input type="text" id="last-name" name="last-name" placeholder="Smith" required></label>
                     <label for="email">Email Address:<input type="email" id="email" name="email" placeholder="johnsmith@gmail.com" required></label>
                 </fieldset>
-                <fieldset class="booking-data">
-                    <h3 class="booking-heading">Which would you like to book?</h3>
-                    <label for="snooker">Snooker<input type="radio" id="snooker" name="snooker" value="snooker" selected></label>
-                    <label for="pool">Pool<input type="radio" id="pool" name="pool" value="pool"></label>
-                    <label for="coaching">Coaching Session<input type="radio" id="coaching" name="coaching" value="coaching"></label>
+                <fieldset class="booking-data" id="table-type">
+                    <legend class="book">Which would you like to book?</legend>
+                    <br>
+                    <div>
+                        <label for="session1"><input type="radio" id="session1" name="session" value="snooker" checked>Snooker</label>
+                        <label for="session2"><input type="radio" id="session2" name="session" value="pool">Pool</label>
+                        <label for="session3"><input type="radio" id="session3" name="session" value="coaching">Coaching Session</label>
+                    </div>
+                    <div>
+                        <button id="book-button" type="submit" value="send request">Book Now</button>
+                        <button id="cancel" type="cancel">Cancel</button>
+                    </div>    
                 </fieldset>
             </form>
         </div>
