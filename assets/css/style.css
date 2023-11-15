@@ -223,7 +223,47 @@ iframe {
 
 
 /* Bookings */
+.container {
+    background-color: #ffffff;
+    font-size: 130%;
+    max-width: 600px;
+    padding: 15px;
+    margin: 50px auto;
+}
 
+.booking-heading {
+    color: black;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.container-times>p {
+    font-weight: bold;
+}
+
+.booking-data {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+#book {
+    border: 5px double rgb(2, 167, 2);
+    margin-bottom: 15px;
+    font-style: oblique;
+    padding: 2px 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
 
 /* Footer */
 footer {

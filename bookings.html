@@ -36,22 +36,44 @@
 
     <!--Main content-->
     <main>
-        <form action="" method="POST">
-            <div class="container">
+        <div class="container">
+            <form action="" method="POST">
                 <div class="container-times text-center">
-                    <h2 id="booking-heading">Opening Hours:</h3>
-                    <p>Monday - saturday:</p>
+                    <h2 class="booking-heading">Opening Hours:</h2>
+                    <p>Monday - Saturday:</p>
                     <p>9:00 - 22:00</p>
                 </div>
-                <fieldset>
+                <fieldset class="booking-data">
+                    <legend id="book">Book your session</legend>
                     <label for="date">Booking Date:<input type="date" id="date" name="date" required></label>
-                    <label for="time">Time:<input type="time" id="time" name="time" required></label>
+                    <label for="time">Time:<input type="time" id="time" name="time" list="avail" required></label>
+                        <datalist id="avail">
+                            <option value="09:00"></option>
+                            <option value="10:00"></option>
+                            <option value="11:00"></option>
+                            <option value="12:00"></option>
+                            <option value="13:00"></option>
+                            <option value="14:00"></option>
+                            <option value="15:00"></option>
+                            <option value="16:00"></option>
+                            <option value="17:00"></option>
+                            <option value="18:00"></option>
+                            <option value="19:00"></option>
+                            <option value="20:00"></option>
+                            <option value="21:00"></option>
+                        </datalist>
                     <label for="first-name">First Name:<input type="text" id="first-name" name="first-name" placeholder="John" required></label>
                     <label for="last-name">Last Name:<input type="text" id="last-name" name="last-name" placeholder="Smith" required></label>
                     <label for="email">Email Address:<input type="email" id="email" name="email" placeholder="johnsmith@gmail.com" required></label>
                 </fieldset>
-            </div>
-        </form>
+                <fieldset class="booking-data">
+                    <h3 class="booking-heading">Which would you like to book?</h3>
+                    <label for="snooker">Snooker<input type="radio" id="snooker" name="snooker" value="snooker" selected></label>
+                    <label for="pool">Pool<input type="radio" id="pool" name="pool" value="pool"></label>
+                    <label for="coaching">Coaching Session<input type="radio" id="coaching" name="coaching" value="coaching"></label>
+                </fieldset>
+            </form>
+        </div>
     </main>
 
     <!--Footer-->
