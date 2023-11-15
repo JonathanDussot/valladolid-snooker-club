@@ -105,7 +105,7 @@ main {
     margin-top: 141px;
 }
 
-/* semicirle section style */
+/* semicircle section style */
 #semicircle {
     height: 600px;
     width: 100%;
@@ -122,7 +122,7 @@ main {
     min-height: 200px;
     padding-top: 15px;
     padding-left: 10px;
-    border-radius: 15%;
+    border-radius: 15px;
 }
 
 #first {
@@ -241,6 +241,10 @@ iframe {
     font-weight: bold;
 }
 
+.fit-picture2 {
+    width: 220px;
+}
+
 .booking-data {
     margin-top: 15px;
     padding-left: 10px;
@@ -295,9 +299,7 @@ label {
     background-color: rgb(160, 159, 159);
 }
 
-.fit-picture2 {
-    width: 220px;
-}
+
 
 /* Footer */
 footer {
