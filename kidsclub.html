@@ -41,19 +41,57 @@
                 <h3>Join our kid's snooker club and experience the fun! </h3>
             </div>
         </section>
-        <section class="inline">
-            <div>
-                <iframe width="200" height="315" src="https://www.youtube.com/embed/7wDxyiWBYGM?si=e-gnG1H9KwezpELM"
+        
+        <!--Stephen Hendry coach section-->
+        <section>
+            <div id="coach">
+                <iframe src="https://www.youtube.com/embed/7wDxyiWBYGM?si=e-gnG1H9KwezpELM"
                     title="YouTube video player" frameborder="0" autoplay="false"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
-                <div>
-                    <h3 id="coach-intro">Stephen Hendry - Kid's Club's Personal Coach</h3>
-
+                <div id="coach-intro">
+                    <h3>Stephen Hendry - Kid's Club's Personal Coach</h3>
+                    <p>Stephen Hendry was the world's #1 player thanks to the many championships he's won.  He now dedicates himself to training our next generation of upcoming-professionals with his vast expertise on stategies and cueing techniques.  Many children are queueing up to have a chance to train with the world's finest, so <strong>what are you waiting for?</strong></p>
                 </div>
             </div>
-            <div></div>
+            <!--Kid's Club session times-->
+            <div class="container-times text-center">
+                <img src="assets/images/kid-snooker.jpg" alt="kid playing snooker" aria-label="kid playing snooker" height="180vh" width="80%">
+                <h2 id="kid-hours" class="booking-heading">Kid's Club Session Hours:</h2>
+                <p>Monday - Saturday:</p>
+                <p>15:30 - 17:00</p>
+                <p>17:00 - 18:30</p>
+            </div>
         </section>
+        <!--Kid's Club form-->
+        <fieldset>
+            <section>
+                <form method="post" action="https://formdump.codeinstitute.net">
+                    <fieldset class="booking-data" id="data-info" id="kid-table">
+                        <legend class="book">Book your session</legend>
+                        <label for="date">Booking Date:<input type="date" id="date" name="date" aria-label="choose your booking date"
+                                required></label>
+                        <label for="time">Time:<input type="time" id="time" name="time" list="avail" aria-label="choose your time"
+                                required></label>
+                        <datalist id="avail">
+                            <option value="15:30"></option>
+                            <option value="17:00"></option>
+                        </datalist>
+                        <label for="child-first-name">Child's First Name:<input type="text" id="child-first-name" name="first-name" placeholder="John"
+                                aria-label="type your child's first name" required></label>
+                        <label for="child-last-name">Child's Last Name:<input type="text" id="child-last-name" name="last-name" placeholder="Smith"
+                                aria-label="type your child's last name" required></label>
+                        <label for="parent-email">Parent/Carer Email Address:<input type="email" id="parent-email" name="email" placeholder="johnsmith@gmail.com"
+                                aria-label="type your email address" required></label>
+                        <div>
+                            <button id="book-button" type="submit" value="submit child booking"
+                                aria-label="complete booking with information given">Book Now</button>
+                            <button id="cancel" reset type="cancel" aria-label="cancel cooking">Cancel</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </fieldset>
     </main>
 
     <!--Footer-->

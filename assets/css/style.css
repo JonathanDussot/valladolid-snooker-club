@@ -325,19 +325,32 @@ label {
     text-transform: capitalize;
 }
 
-.inline {
-    position: relative;
-    display: block;
+#coach {
+    margin-top: 10px;
+    height: auto;
 }
 
 #coach-intro {
+    border: 2px solid rgb(2, 167, 2);
+    margin: 5px 10px;
+    padding: 8px;
+}
+
+#coach-intro>h3, #kid-hours {
     font-family: Playpen Sans, sans-serif;
     text-transform: capitalize;
     color: #1a1a1a;
     font-size: 180%;
 }
 
+#coach-intro>p {
+    font-size: 1.3rem;
+    margin: 20px auto;
+}
 
+#kid-table {
+    padding: 15px 0;
+}
 
 /* Footer */
 footer {
