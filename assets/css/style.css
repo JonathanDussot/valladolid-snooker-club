@@ -107,7 +107,7 @@ main {
 
 /* semicircle section style */
 #semicircle {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url(../images/Snooker-Cue-and-Balls.jpg) no-repeat center center/cover;
     position: relative;
@@ -299,7 +299,31 @@ label {
     background-color: rgb(160, 159, 159);
 }
 
+/* Kid's club */
 
+#fullcircle {
+    height: 400px;
+    width: 100%;
+    background: url(../images/white-and-reds-big.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+#kids-cover-text {
+    background-color: rgba(5, 151, 5, 0.5);
+    font-size: 180%;
+    position: absolute;
+    top: 85px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+#kids-cover-text>h3 {
+    font-family: Playpen Sans, sans-serif;
+    text-transform: capitalize;
+}
 
 /* Footer */
 footer {
@@ -377,6 +401,13 @@ a:hover {
     th, td {
         font-size: 150%;
     }
+
+    #kids-cover-text {
+        width: 350px;
+        left: 70px;
+        top: 200px;
+        font-size: 140%;
+        min-height: 150px;
 }
 
 /* larger devices, laptops and desktops (992+) */
