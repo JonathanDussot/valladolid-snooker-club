@@ -325,6 +325,20 @@ label {
     text-transform: capitalize;
 }
 
+.inline {
+    position: relative;
+    display: block;
+}
+
+#coach-intro {
+    font-family: Playpen Sans, sans-serif;
+    text-transform: capitalize;
+    color: #1a1a1a;
+    font-size: 180%;
+}
+
+
+
 /* Footer */
 footer {
     background-color: black;
@@ -430,7 +444,4 @@ a:hover {
         display: flex;
         justify-content: center;
     }
-    
-    
-
 }
