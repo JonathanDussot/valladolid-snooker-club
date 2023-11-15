@@ -223,25 +223,7 @@ iframe {
 
 
 /* Bookings */
-.container {
-    background-color: rgba(5, 151, 5);
-    height: 200px;
-    width: 100%;
-    position: relative;
-    margin: 100px auto;
-    font-size: 130%;
-}
 
-.container-times {
-    width: 80%;
-    height: 80%;
-    margin: auto;
-    border: 1.5px dotted #ffffff;
-}
-
-#booking-heading {
-
-}
 
 /* Footer */
 footer {
