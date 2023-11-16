@@ -352,6 +352,11 @@ iframe {
     margin: 20px 5px 50px 5px;
 }
 
+#center {
+    font-size: large;
+    font-weight: bold;
+}
+
 /* Footer */
 footer {
     background-color: black;
@@ -473,5 +478,32 @@ footer p {
     #table {
         display: flex;
         justify-content: center;
+    }
+
+    #coach {
+        display: flex;
+    }
+
+    #coach-intro>h3, #coach-intro>p {
+        padding: 20px 10px;
+    }
+
+    #coach-intro>p {
+        font-size: 1.5rem;
+    }
+
+    #kid-snooker {
+        margin-top: 50px;
+    }
+
+    #form-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    #center {
+        margin-left: 400px;
+        font-size: large;
+        font-weight: bold;
     }
 }
