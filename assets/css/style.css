@@ -109,7 +109,7 @@ main {
 #semicircle {
     height: 400px;
     width: 100%;
-    background: url(../images/Snooker-Cue-and-Balls.jpg) no-repeat center center/cover;
+    background: url(../images/snooker-cue-and-balls.jpg) no-repeat center center/cover;
     position: relative;
 }
 
@@ -435,6 +435,7 @@ a:hover {
         top: 200px;
         font-size: 140%;
         min-height: 150px;
+    }
 }
 
 /* larger devices, laptops and desktops (992+) */
