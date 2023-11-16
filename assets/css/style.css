@@ -1,7 +1,6 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Playpen+Sans:wght@300;400;600&display=swap');
 
-
 /*asterisk wildcard selector used to override default styles added by the browser */
 * {
     margin: 0;
@@ -221,7 +220,6 @@ iframe {
 }
 
 
-
 /* Bookings */
 .container {
     background-color: #ffffff;
@@ -299,8 +297,8 @@ label {
     background-color: rgb(160, 159, 159);
 }
 
-/* Kid's club */
 
+/* Kid's club */
 #fullcircle {
     height: 400px;
     width: 100%;
@@ -330,6 +328,10 @@ label {
     height: auto;
 }
 
+iframe {
+    height: 200px;
+}
+
 #coach-intro {
     border: 2px solid rgb(2, 167, 2);
     margin: 5px 10px;
@@ -350,6 +352,10 @@ label {
 
 #kid-table {
     padding: 15px 0;
+}
+
+#form-box {
+    margin: 20px 5px 50px 5px;
 }
 
 /* Footer */
@@ -377,6 +383,14 @@ a {
 a:hover {
     color:rgb(2, 167, 2);
 }
+
+footer p {
+    color: #cccccc;
+    display: flex;
+    justify-content: center;
+    font-size: 70%;
+}
+
 /* Media query for mobile S and larger (320+) */
 
 @media screen and (min-width:320px) {
@@ -435,6 +449,14 @@ a:hover {
         top: 200px;
         font-size: 140%;
         min-height: 150px;
+    }
+
+    iframe, #kid-snooker {
+        height: 350px;
+    }
+
+    #kid-snooker {
+        max-width: 450px;
     }
 }
 
