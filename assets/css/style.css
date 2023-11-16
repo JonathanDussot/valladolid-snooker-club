@@ -357,6 +357,22 @@ iframe {
     font-weight: bold;
 }
 
+#red{
+    color: rgb(255, 14, 14);
+}
+
+#green {
+    color: rgb(2, 170, 2);
+}
+
+#blue {
+    color: blue;
+}
+
+#brown {
+    color: brown;
+}
+
 /* Footer */
 footer {
     background-color: black;
