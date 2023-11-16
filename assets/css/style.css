@@ -208,12 +208,6 @@ thead, tfoot {
 
 /* map of location */
 
-#map {
-    border: 1px solid black;
-    margin: 0 2rem;
-    height: 60vh;
-}
-
 iframe {
     height: 100%;
     width: 100%;
