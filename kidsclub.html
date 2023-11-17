@@ -70,19 +70,19 @@
                 <form method="POST" action="https://formdump.codeinstitute.net">
                     <fieldset class="booking-data" id="data-info" id="kid-table">
                         <legend class="book">Book your session</legend>
-                        <label for="date">Booking Date:<input type="date" id="date" name="date" aria-label="choose your booking date"
+                        <label for="date">Booking Date:<input class="field" type="date" id="date" name="date" aria-label="choose your booking date"
                                 required></label>
-                        <label for="time">Time:<input type="time" id="time" name="time" list="avail" aria-label="choose your time"
+                        <label for="time">Time:<input class="field" type="time" id="time" name="time" list="avail" aria-label="choose your time"
                                 required></label>
                         <datalist id="avail">
                             <option value="15:30"></option>
                             <option value="17:00"></option>
                         </datalist>
-                        <label for="child-first-name">Child's First Name:<input type="text" id="child-first-name" name="first-name" placeholder="John"
+                        <label for="child-first-name">Child's First Name:<input class="field" type="text" id="child-first-name" name="first-name" placeholder="John"
                                 aria-label="type your child's first name" required></label>
-                        <label for="child-last-name">Child's Last Name:<input type="text" id="child-last-name" name="last-name" placeholder="Smith"
+                        <label for="child-last-name">Child's Last Name:<input class="field" type="text" id="child-last-name" name="last-name" placeholder="Smith"
                                 aria-label="type your child's last name" required></label>
-                        <label for="parent-email">Parent/Carer Email Address:<input type="email" id="parent-email" name="email" placeholder="johnsmith@gmail.com"
+                        <label for="parent-email">Parent/Carer Email Address:<input class="field" type="email" id="parent-email" name="email" placeholder="johnsmith@gmail.com"
                                 aria-label="type your email address" required></label>
                         <div>
                             <button id="book-button" type="submit" value="submit child booking"

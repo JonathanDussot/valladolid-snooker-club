@@ -36,54 +36,56 @@
 
     <!--Main content-->
     <main>
-        <div class="container">
-            <form method="POST" action="https://formdump.codeinstitute.net">
-                <div class="container-times text-center">
-                    <h2 class="booking-heading">Opening Hours:</h2>
-                    <p>Monday - Saturday:</p>
-                    <p>9:00 - 22:00</p>
-                    <img class="fit-picture2" src="assets/images/snooker-cue-and-balls.jpg" alt="white and red snooker balls" aria-label="a picture of a white and red snooker balls">
-                </div>
-
-                <!--form-->
-                <fieldset class="booking-data" id="data-info">
-                    <legend class="book">Book your session</legend>
-                    <label for="date">Booking Date:<input type="date" id="date" name="date" aria-label="choose your booking date" required></label>
-                    <label for="time">Time:<input type="time" id="time" name="time" list="avail" aria-label="choose your time" required></label>
-                        <datalist id="avail">
-                            <option value="09:00"></option>
-                            <option value="10:00"></option>
-                            <option value="11:00"></option>
-                            <option value="12:00"></option>
-                            <option value="13:00"></option>
-                            <option value="14:00"></option>
-                            <option value="15:00"></option>
-                            <option value="16:00"></option>
-                            <option value="17:00"></option>
-                            <option value="18:00"></option>
-                            <option value="19:00"></option>
-                            <option value="20:00"></option>
-                            <option value="21:00"></option>
-                        </datalist>
-                    <label for="first-name">First Name:<input type="text" id="first-name" name="first-name" placeholder="John" aria-label="type your first name" required></label>
-                    <label for="last-name">Last Name:<input type="text" id="last-name" name="last-name" placeholder="Smith" aria-label="type your last name" required></label>
-                    <label for="email">Email Address:<input type="email" id="email" name="email" placeholder="johnsmith@gmail.com" aria-label="type your email address" required></label>
-                </fieldset>
-                <fieldset class="booking-data" id="table-type">
-                    <legend class="book">Which would you like to book?</legend>
-                    <br>
-                    <div>
-                        <label for="session1"><input type="radio" id="session1" name="session" value="snooker" aria-label="book snooker" checked>Snooker</label>
-                        <label for="session2"><input type="radio" id="session2" name="session" value="pool" aria-label="book pool">Pool</label>
-                        <label for="session3"><input type="radio" id="session3" name="session" value="coaching" aria-label="book a coaching session">Coaching Session</label>
+        <section id="snooker-hall">
+            <div class="container">
+                <form method="POST" action="https://formdump.codeinstitute.net">
+                    <div class="container-times text-center">
+                        <h2 class="booking-heading">Opening Hours:</h2>
+                        <p>Monday - Saturday:</p>
+                        <p>9:00 - 22:00</p>
+                        <img class="fit-picture2" src="assets/images/snooker-cue-and-balls.jpg" alt="white and red snooker balls" aria-label="a picture of a white and red snooker balls">
                     </div>
-                    <div>
-                        <button id="book-button" type="submit" value="submit booking" aria-label="complete booking with information given">Book Now</button>
-                        <button id="cancel" type="reset" aria-label="cancel cooking">Cancel</button>
-                    </div>    
-                </fieldset>
-            </form>
-        </div>
+
+                    <!--form-->
+                    <fieldset class="booking-data" id="data-info">
+                        <legend class="book">Book your session</legend>
+                        <label for="date">Booking Date:<input class="field" type="date" id="date" name="date" aria-label="choose your booking date" required></label>
+                        <label for="time">Time:<input class="field" type="time" id="time" name="time" list="avail" aria-label="choose your time" required></label>
+                            <datalist id="avail">
+                                <option value="09:00"></option>
+                                <option value="10:00"></option>
+                                <option value="11:00"></option>
+                                <option value="12:00"></option>
+                                <option value="13:00"></option>
+                                <option value="14:00"></option>
+                                <option value="15:00"></option>
+                                <option value="16:00"></option>
+                                <option value="17:00"></option>
+                                <option value="18:00"></option>
+                                <option value="19:00"></option>
+                                <option value="20:00"></option>
+                                <option value="21:00"></option>
+                            </datalist>
+                        <label for="first-name">First Name:<input class="field" type="text" id="first-name" name="first-name" placeholder="John" aria-label="type your first name" required></label>
+                        <label for="last-name">Last Name:<input class="field" type="text" id="last-name" name="last-name" placeholder="Smith" aria-label="type your last name" required></label>
+                        <label for="email">Email Address:<input class="field" type="email" id="email" name="email" placeholder="johnsmith@gmail.com" aria-label="type your email address" required></label>
+                    </fieldset>
+                    <fieldset class="booking-data" id="table-type">
+                        <legend class="book">Which would you like to book?</legend>
+                        <br>
+                        <div>
+                            <label for="session1"><input type="radio" id="session1" name="session" value="snooker" aria-label="book snooker" checked>Snooker</label>
+                            <label for="session2"><input type="radio" id="session2" name="session" value="pool" aria-label="book pool">Pool</label>
+                            <label for="session3"><input type="radio" id="session3" name="session" value="coaching" aria-label="book a coaching session">Coaching Session</label>
+                        </div>
+                        <div>
+                            <button id="book-button" type="submit" value="submit booking" aria-label="complete booking with information given">Book Now</button>
+                            <button id="cancel" type="reset" aria-label="cancel cooking">Cancel</button>
+                        </div>    
+                    </fieldset>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!--Footer-->

@@ -23,6 +23,12 @@ h1, h2, h3 {
     color: #ddeedd;
 }
 
+.field {
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+}
+
 /* header */
 header {
     background-color: rgb(5, 151, 5);
@@ -215,6 +221,14 @@ iframe {
 
 
 /* Bookings */
+
+#snooker-hall {
+    height: 100%;
+    width: 100%;
+    background: url(../images/snooker-hall.jpg) no-repeat center center/cover;
+    position: static;
+}
+
 .container {
     background-color: #ffffff;
     font-size: 130%;
@@ -255,7 +269,6 @@ label {
 }
 
 #data-info input {
-    width: 100%;
     padding: 6px;
     margin-bottom: 15px;
 }
