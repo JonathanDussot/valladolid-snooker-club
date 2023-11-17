@@ -29,6 +29,26 @@ h1, h2, h3 {
     width: 150px;
 }
 
+.red {
+    color: rgb(255, 14, 14);
+}
+
+.green {
+    color: rgb(2, 170, 2);
+}
+
+.blue {
+    color: blue;
+}
+
+.brown {
+    color: brown;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
 /* header */
 header {
     background-color: rgb(5, 151, 5);
@@ -154,21 +174,21 @@ hr {
     padding: 5px 10px;
 }
 
-#point1 {
-    color: rgb(255, 36, 36);
-    font-size: 120%;
-}
-
 #coordination {
     background-color: #c9c7c7;
 }
 
-#point2 {
+.point1 {
+    color: rgb(255, 36, 36);
+    font-size: 120%;
+}
+
+.point2 {
     color: rgb(2, 167, 2);
     font-size: 120%;
 }
 
-#point3 {
+.point3 {
     color: rgb(26, 26, 231);
     font-size: 120%;
 }
@@ -370,21 +390,6 @@ iframe {
     font-weight: bold;
 }
 
-#red{
-    color: rgb(255, 14, 14);
-}
-
-#green {
-    color: rgb(2, 170, 2);
-}
-
-#blue {
-    color: blue;
-}
-
-#brown {
-    color: brown;
-}
 
 /* Footer */
 footer {
