@@ -26,7 +26,7 @@ h1, h2, h3 {
 .field {
     display: flex;
     justify-content: flex-end;
-    width: 150px;
+    width: 200px;
 }
 
 .red {
@@ -274,6 +274,9 @@ iframe {
 .booking-data {
     margin-top: 15px;
     padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .book {
@@ -289,9 +292,8 @@ label {
 }
 
 #data-info input {
-    padding: 6px;
+    padding: 10px;
     margin-bottom: 15px;
-    padding: 15px 0;
 }
 
 
@@ -312,7 +314,6 @@ label {
     font-size: 1.5rem;
     color: #ffffff;
     background-color: rgb(5, 151, 5);
-    box-shadow: inset rgba(5, 151, 5, 0.6);
 }
 
 #book-button:hover {
@@ -428,6 +429,10 @@ footer p {
     main {
         margin-top: 94px;
     }
+
+    .field {
+        width: 250px;
+    }
 }
 
 /* Media query for tablets and larger (768+) */
@@ -486,7 +491,7 @@ footer p {
     }
 
     #kid-snooker {
-        max-width: 450px;
+        width: 600px;
     }
 }
 
@@ -536,5 +541,9 @@ footer p {
         margin-left: 400px;
         font-size: large;
         font-weight: bold;
+    }
+
+    #kid-form {
+        width: 600px;
     }
 }
