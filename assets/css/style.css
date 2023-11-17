@@ -291,6 +291,7 @@ label {
 #data-info input {
     padding: 6px;
     margin-bottom: 15px;
+    padding: 15px 0;
 }
 
 
@@ -375,10 +376,6 @@ iframe {
 #coach-intro>p {
     font-size: 1.3rem;
     margin: 20px auto;
-}
-
-#kid-table {
-    padding: 15px 0;
 }
 
 #form-box {

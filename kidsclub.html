@@ -56,7 +56,7 @@
             </div>
             <!--Kid's Club session times-->
             <div class="container-times text-center">
-                <img id="kid-snooker" src="assets/images/kid-snooker.jpg" alt="kid playing snooker" aria-label="kid playing snooker" height="200h" width="300">
+                <img id="kid-snooker" src="assets/images/kid-snooker.jpg" alt="kid playing snooker" aria-label="kid playing snooker" height="200" width="300">
                 <h2 id="kid-hours" class="booking-heading"><span class="red">K</span><span class="green">i</span><span class="blue">d</span><span class="brown">'s</span> Club Session Hours:</h2>
                 <p>Monday - Saturday:</p>
                 <p>15:30 - 17:00</p>
@@ -66,9 +66,9 @@
         <!--Kid's Club form-->
         <fieldset id="form-box">
             <legend class="book" id="center">Let's get started</legend>
-            <section>
+            <div>
                 <form method="POST" action="https://formdump.codeinstitute.net">
-                    <fieldset class="booking-data" id="data-info" id="kid-table">
+                    <fieldset class="booking-data" id="data-info">
                         <legend class="book">Book your session</legend>
                         <label for="date">Booking Date:<input class="field" type="date" id="date" name="date" aria-label="choose your booking date"
                                 required></label>
@@ -87,11 +87,11 @@
                         <div>
                             <button id="book-button" type="submit" value="submit child booking"
                                 aria-label="complete booking with information given">Book Now</button>
-                            <button id="cancel" reset type="reset" aria-label="cancel cooking">Cancel</button>
+                            <button id="cancel" type="reset" aria-label="cancel cooking">Cancel</button>
                         </div>
                     </fieldset>
                 </form>
-            </section>
+            </div>
         </fieldset>
     </main>
 
