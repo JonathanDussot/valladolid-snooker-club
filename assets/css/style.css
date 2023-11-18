@@ -199,12 +199,12 @@ hr {
 }
 
 .point1 {
-    color: rgb(255, 36, 36);
+    color: red;
     font-size: 120%;
 }
 
 .point2 {
-    color: rgb(2, 167, 2);
+    color: green;
     font-size: 120%;
 }
 
