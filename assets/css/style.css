@@ -20,7 +20,7 @@ body {
 h1, h2, h3 {
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #ddeedd;
+    color: #ffffff;
 }
 
 .field {
@@ -30,7 +30,7 @@ h1, h2, h3 {
 }
 
 .red {
-    color: rgb(255, 14, 14);
+    color: red;
 }
 
 .green {
@@ -43,6 +43,22 @@ h1, h2, h3 {
 
 .brown {
     color: brown;
+}
+
+.hotpink {
+    color: hotpink;
+}
+
+.lawngreen {
+    color: lawngreen;
+}
+
+.deepskyblue {
+    color: deepskyblue;
+}
+
+.sandybrown {
+    color: sandybrown;
 }
 
 li {
@@ -87,12 +103,12 @@ nav a {
 }
 
 #menu a {
-    color: #ddeedd;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .active {
-    border-bottom: 2px solid #ddeedd;
+    border-bottom: 2px solid #ffffff;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -119,7 +135,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 3rem;
-    color: #ddeedd;
+    color: #ffffff;
 }
 
 
@@ -152,6 +168,10 @@ main {
 
 #first {
     color:gold;
+    text-transform: lowercase;
+}
+
+#ordinal {
     text-transform: lowercase;
 }
 
@@ -350,6 +370,9 @@ label {
 #kids-cover-text>h3 {
     font-family: 'Playpen Sans', sans-serif;
     text-transform: capitalize;
+    letter-spacing: 0;
+
+
 }
 
 #coach {
@@ -367,11 +390,20 @@ iframe {
     padding: 8px;
 }
 
-#coach-intro>h3, #kid-hours {
+#coach-intro>h3, #kid-hours, #kid-days {
     font-family: 'Playpen Sans', sans-serif;
     text-transform: capitalize;
     color: #1a1a1a;
+    letter-spacing: 0;
+}
+
+#coach-intro>h3, #kid-hours {
     font-size: 180%;
+}
+
+#kid-days {
+    font-size: 130%;
+
 }
 
 #coach-intro>p {
@@ -408,7 +440,7 @@ footer {
 }
 
 a {
-    color: #ddeedd;
+    color: #ffffff;
 }
 
 a:hover {
@@ -498,7 +530,7 @@ footer p {
 /* larger devices, laptops and desktops (992+) */
 @media screen and (min-width:992px) {
     #menu a:hover {
-        border-bottom: 2px solid #ddeedd;
+        border-bottom: 2px solid #ffffff;
     }
 
     /* main  */
@@ -541,6 +573,14 @@ footer p {
         margin-left: 400px;
         font-size: large;
         font-weight: bold;
+    }
+
+    #kid-hours {
+        font-size: 230%;
+    }
+    
+    #kid-days {
+        font-size: 170%;
     }
 
     #kid-form {
