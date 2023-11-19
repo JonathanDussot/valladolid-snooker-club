@@ -146,8 +146,8 @@ main {
     margin-top: 141px;
 }
 
-/* semicircle section style */
-#semicircle {
+/* reasons section style */
+#reasons {
     height: 400px;
     width: 100%;
     background: url(../images/snooker-cue-and-balls.jpg) no-repeat center center/cover;
@@ -348,7 +348,7 @@ label {
 
 
 /* Kid's club */
-#fullcircle {
+#kids-club {
     height: 400px;
     width: 100%;
     background: url(../images/white-and-reds-big.jpg) no-repeat center center/cover;
