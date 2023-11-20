@@ -8,4 +8,15 @@ Valladolid Snooker Club also offers classes to kids at a very convenient time fo
 
 ![screenshot of site on amiresponsive](documentation/amiresponsive-snooker-img.png)
 
-## features
+### Live website
+You can visit the website [here](https://jonathandussot.github.io/valladolid-snooker-club/)
+
+### My GitHub Repository
+You can visit the GitHub Repository [here](https://github.com/JonathanDussot/valladolid-snooker-club)
+
+#Contents
+
+- [Valladolid Snooker Club](#valladolid-snooker-club)
+  - [Project Overview](#project-overview)
+    - [Live website](#live-website)
+    - [My GitHub Repository](#my-github-repository)
