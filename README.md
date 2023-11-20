@@ -1,39 +1,11 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Valladolid Snooker Club
+## Project Overview
+Valladolid Snooker Club is a website that has the objective of attracting more people to take up playing Snooker and see the beneficial and fun aspects of it.  It facilitates users with the possibility to meet at the venue and share their passion for the sport regardless of their age or skill.
 
-Welcome,
+This website aims to appeal to the local audience and encourage them to participate in an ever-growing multi-cultural sport that their country has yet to discover whether it is seeking a hobby after work or meeting with friends.  There are also many UK residents currently residing in the city who share a passion for the sport, and could greatly benefit from having a place which offers them an opportunity to continue playing what they love.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Valladolid Snooker Club also offers classes to kids at a very convenient time for parents to enroll their children seeing as after-school activities are very popular in the city. It simultaneously provides them a method to further develop their motor skills and concentration skills, and learn about a new sport which could potentially develop into a professional career.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+## features
