@@ -6,6 +6,6 @@ This website aims to appeal to the local audience and encourage them to particip
 
 Valladolid Snooker Club also offers classes to kids at a very convenient time for parents to enroll their children seeing as after-school activities are very popular in the city. It simultaneously provides them a method to further develop their motor skills and concentration skills, and learn about a new sport which could potentially develop into a professional career.
 
-
+![screenshot of site on amiresponsive](documentation/amiresponsive-snooker-img.png)
 
 ## features
