@@ -1,5 +1,5 @@
 # Valladolid Snooker Club
-## Project Overview
+# Project Overview
 Valladolid Snooker Club is a website that has the objective of attracting more people to take up playing Snooker and see the beneficial and fun aspects of it.  It facilitates users with the possibility to meet at the venue and share their passion for the sport regardless of their age or skill.
 
 This website aims to appeal to the local audience and encourage them to participate in an ever-growing multi-cultural sport that their country has yet to discover whether it is seeking a hobby after work or meeting with friends.  There are also many UK residents currently residing in the city who share a passion for the sport, and could greatly benefit from having a place which offers them an opportunity to continue playing what they love.
@@ -16,7 +16,13 @@ You can visit the GitHub Repository [here](https://github.com/JonathanDussot/val
 
 #Contents
 
-- [Valladolid Snooker Club](#valladolid-snooker-club)
-  - [Project Overview](#project-overview)
-    - [Live website](#live-website)
-    - [My GitHub Repository](#my-github-repository)
+* [Project Overview](project-overview)
+  * [Live Website](live-website)
+  * [My GitHub Repository](my-github-repository)
+
+* [Design](#design)
+  * [Colour Scheme](colour-scheme)
+
+* [features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * 
