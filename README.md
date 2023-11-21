@@ -81,5 +81,24 @@ I used Google Fonts to import the following:
 - Montserrat (sans serif) is used in the body of the page.
 - Playpen Sans is used for headings in kidsclub.html.
 
-### Wireframes
+### Imagery
 
+All the images added to the site are related to the sport. I wanted to use warm and appealing images to give the user the sense of wanting to be there themselves.
+
+## Features
+
+The website consists of three pages; Home page, Bookings page and the Kids Club page.
+
+All pages are responsive and contain:
+
+* Favicon of the Website - chosen to match the theme of the site.
+
+![screenhot of the favicon](documentation/favicon-img.png)
+
+* Navigation bar - Fully responsive and contains links to all pages as well as the contact details section in the Home page.  On a mobile device this would display a toggle navbar.
+
+![screenshot of the navigation bar](documentation/navbar-img.png)
+
+* Footer - 
+
+![screenshot of the footer]
