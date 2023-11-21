@@ -95,10 +95,32 @@ All pages are responsive and contain:
 
 ![screenhot of the favicon](documentation/favicon-img.png)
 
-* Navigation bar - Fully responsive and contains links to all pages as well as the contact details section in the Home page.  On a mobile device this would display a toggle navbar.
+* Navigation bar - Fully responsive and contains links to all pages as well as the contact details section in the Home page.  On a mobile device this would display a toggle navbar. The title is also a link to the Home page.
 
 ![screenshot of the navigation bar](documentation/navbar-img.png)
 
-* Footer - 
+* Footer - Fully responsive with links that open on a new tab.
 
-![screenshot of the footer]
+![screenshot of the footer](documentation/footer-img.png)
+
+* Landing Page - This would be the first page the user would see, introducing the theme with the image and introductory phrase designed to catch their attention, while offering a glimpse of the benefits/ reasons section that follows as can be seen on the bigger screens.
+
+![screenshot of amiresponsive main page](documentation/amiresponsive-snooker-img.png)
+
+* Interactive map - A map is included within the page to allow users to locate the venue and explore the area around it. Users are given the option to move the map and zoom in and out.
+
+![screenshot of amiresponsive map on home page](documentation/amiresponsive-map.png)
+
+* Form on Bookings page - A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
+
+![screenshot of form and buttons on Bookings page](documentation/amiresponsive-bookings-form-and-button.png)
+![screenshot of submitted form](documentation/submit-bookings.png)
+
+* Media video on Kids Club page - This embedded YouTube video on our kids club page shares the screen horizontally once the screen is 992px or larger.  IT is not set to autoplay and the controls work well in all screen sizes.
+
+![screenshot of video on Kids Club page](documentation/amiresponsive-video.png)
+
+- Form on Kids Club page - A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
+
+![screenshot of form and buttons on Kids Club page](documentation/amiresponsive-kids-form-and-button.png)
+![screenshot of submitted form](documentation/submit-kidsclub.png)
