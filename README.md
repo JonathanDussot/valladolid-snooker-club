@@ -47,4 +47,39 @@ You can visit the GitHub Repository [here](https://github.com/JonathanDussot/val
 
 ### colour scheme
 
-I designed the colour palette for the website myself
+I designed the colour palette for the website myself.  Here is the list of colours used:
+
+- #238901 / RGB(35, 137, 1)
+
+  - This colour would give the user a certain sense of comfort considering its proximity to the colour of a typical table cloth.  This was tken into account upon creating the navigation bar and background colour of the header.  It has also been used throughout parts of the page to continue to have the feeling resonate within the users and their experience.
+
+- White (#ffffff)
+
+  - This colour was typically used to match the above shade of green throughout the webpage's layout. It can be seen as the main background colour used for the body elements as well as the text colour for the #238901 background colours.  Ultimately, #ffffff was chosen to guarantee accessibility through colour contrast between both colours.
+
+- #1a1a1a / RGB(26, 26, 26) & Black (#000000)
+
+  - This colour is used for the footer as in Pool and Snooker it typically resembles the 'last' step (black ball) and it combined perfectly with the thematic impression the page wanted to give.  It is also used for text within the white background colours.
+
+- #e6dede / RGB(230, 222, 222) & #c9c7c7 / RGB(201, 199, 199)
+
+  - This colour can be seen in the index.html to highlight the background colours of the area where benefits and reasons to practice the sport are given.
+
+- Red (#ff0000), Green (#008000), Blue (#0000ff), Gold (#ffd900)
+
+  - This colour can be seen in the index.html to highlight the keywords within the header cover-text and the area where benefits and reasons to practice the sport are given.
+
+- Brown (#a52a2a), Hotpink (#ff69b4), Lawngreen (#7efc00), Deepskyblue (#00bfff), Sandybrown (#f4a560)
+
+  - These colours in combination with the colours directly above are used within the kidsclub.html to give it a more welcome and friendly feeling with underage members when users enter the page.
+
+### Typography
+
+I used Google Fonts to import the following:
+
+- Agbalumo is used in the navigation bar logo heading of the page.
+- Montserrat (sans serif) is used in the body of the page.
+- Playpen Sans is used for headings in kidsclub.html.
+
+### Wireframes
+
