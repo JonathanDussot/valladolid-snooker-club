@@ -214,7 +214,7 @@ You can visit the website [here](https://jonathandussot.github.io/valladolid-sno
 
 ## Testing
 
-click [here](TESTING.md) to see the all the testing done to the site.
+click [here](TESTING.md) to see the all the details in regard to the testing done on the site.
 
 ## Credits
 
@@ -227,20 +227,30 @@ When creating the form, I used this code from [tutorialspoint](https://www.tutor
 
 ### Content
 
-Most of the points from the About & Reasons section within the home page were summarised from the informationg given on [bestsnookercue website](bestsnookercue.com)
+Most of the points from the About Us & Reasons section within the home page were summarised from the informationg given on [bestsnookercue website](bestsnookercue.com)
 
 ### Media
 
-img blue ball red ball green ball
+- The [blue-ball.jpg](assets/images/blue-ball.jpg), [green-ball.jpg](assets/images/green-ball.jpg) and [red-ball.jpg](assets/images/red-ball.jpg) were all taken from the links to the [mcbillard.de](https://mcbillard.de/) website below respectively.  They were used to accompany my About Us & Reasons section to give a little colour and maintain the theme throughout the home page.
 
-img kid snooker
+[blue-ball.jpg from mcbillard.de](https://mcbillard.de/product_info.php/language/en/info/p1447_Billiard-Ball-Aramith-1GTournament-Champion-blue-snooker)
 
-img snooker cue and balls
+[green-ball.jpg from mcbillard.de](https://mcbillard.de/product_info.php/language/en/info/p1412_Billiard-Ball-Aramith-1GTournament-Champion-green-snooker)
 
-white and reds big
+[red-ball.jpg from mcbillard.de](https://mcbillard.de/product_info.php/language/en/info/p1451_Billiard-Ball-Aramith-1GTournament-Champion-red-snooker)
 
-white and reds
+- The [kid-snooker.jpg](assets/images/kid-snooker.jpg) was taken from the website below and helped set a sense of a professional yet friendly environment for our underage audience.
 
-video
+[kid-snooker.jpg from wpbsa.com](https://wpbsa.com/participation/junior-snooker/)
+
+- The [snooker-cue-and-balls.jpg](assets/images/snooker-cue-and-balls.jpg) was taken from Pexels to set the tone for the site`s home page in the header with a sophisticated and classy look.  This photo was taken by [Qamar Rehman](https://www.pexels.com/@qamar-rehman-94539242/)
+
+[snooker-cue-and-balls.jpg from pexels.com](https://www.pexels.com/photo/close-up-photo-of-snooker-game-11354500/)
+
+- The [white-and-reds-big.jpg](assets/images/white-and-reds-big.jpg) was taken from Pexels. This was used within the kids club page's header.  This photo was taken by [Fritz Jaspers](https://www.pexels.com/@fritz-jaspers-746891536/)
+
+[white-and-reds-big.jpg from pexels.com](https://www.pexels.com/photo/billiard-balls-on-a-snooker-table-18828557/)
+
+The video media file within the kids club page was taken from the [Stephen Hendry's Cue Tips](https://www.youtube.com/watch?v=7wDxyiWBYGM) YouTube channel.
 
 ## Acknowledgements
