@@ -254,3 +254,11 @@ Most of the points from the About Us & Reasons section within the home page were
 The video media file within the kids club page was taken from the [Stephen Hendry's Cue Tips](https://www.youtube.com/watch?v=7wDxyiWBYGM) YouTube channel.
 
 ## Acknowledgements
+
+I would like to acknowledge the following people who have been a huge help for my very first milestone project:
+
+- [Lauren-Nicole](https://github.com/CluelessBiker) - My Code Institute Mentor for her vast amount of knowledge, relaxing demeanor and patience!
+
+- [Kera Cudmore](https://github.com/kera-cudmore) - for her constant support through the slack community.
+
+- Arwen Dussot - my newborn daughter for keeping me awake at night and 'on my toes' so to speak.
