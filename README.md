@@ -87,40 +87,73 @@ All the images added to the site are related to the sport. I wanted to use warm 
 
 ## Features
 
+### General Features on each page
+
 The website consists of three pages; Home page, Bookings page and the Kids Club page.
 
 All pages are responsive and contain:
 
-* Favicon of the Website - chosen to match the theme of the site.
+* Favicon of the Website 
+  * chosen to match the theme of the site.
 
 ![screenhot of the favicon](documentation/favicon-img.png)
 
-* Navigation bar - Fully responsive and contains links to all pages as well as the contact details section in the Home page.  On a mobile device this would display a toggle navbar. The title is also a link to the Home page.
+* Navigation bar
+  * Fully responsive and contains links to all pages as well as the contact details section in the Home page.  On a mobile device this would display a toggle navbar. The title is also a link to the Home page.
 
 ![screenshot of the navigation bar](documentation/navbar-img.png)
 
-* Footer - Fully responsive with links that open on a new tab.
+* Footer
+  * Fully responsive with links that open on a new tab.
 
 ![screenshot of the footer](documentation/footer-img.png)
 
-* Landing Page - This would be the first page the user would see, introducing the theme with the image and introductory phrase designed to catch their attention, while offering a glimpse of the benefits/ reasons section that follows as can be seen on the bigger screens.
+* Landing Page
+  * This would be the first page the user would see, introducing the theme with the image and introductory phrase designed to catch their attention, while offering a glimpse of the benefits/ reasons section that follows as can be seen on the bigger screens.
 
 ![screenshot of amiresponsive main page](documentation/amiresponsive-snooker-img.png)
 
-* Interactive map - A map is included within the page to allow users to locate the venue and explore the area around it. Users are given the option to move the map and zoom in and out.
+* Interactive map
+  * A map is included within the page to allow users to locate the venue and explore the area around it. Users are given the option to move the map and zoom in and out.
 
 ![screenshot of amiresponsive map on home page](documentation/amiresponsive-map.png)
 
-* Form on Bookings page - A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
+* Form on Bookings page
+  * A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
 
 ![screenshot of form and buttons on Bookings page](documentation/amiresponsive-bookings-form-and-button.png)
 ![screenshot of submitted form](documentation/submit-bookings.png)
 
-* Media video on Kids Club page - This embedded YouTube video on our kids club page shares the screen horizontally once the screen is 992px or larger.  IT is not set to autoplay and the controls work well in all screen sizes.
+* Media video on Kids Club page
+  * This embedded YouTube video on our kids club page shares the screen horizontally once the screen is 992px or larger.  IT is not set to autoplay and the controls work well in all screen sizes.
 
 ![screenshot of video on Kids Club page](documentation/amiresponsive-video.png)
 
-- Form on Kids Club page - A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
+* Form on Kids Club page
+  * A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
 
 ![screenshot of form and buttons on Kids Club page](documentation/amiresponsive-kids-form-and-button.png)
 ![screenshot of submitted form](documentation/submit-kidsclub.png)
+
+### Future Implementations
+
+ideas for future implementations I would like to incude are:
+
+1. A simple login functionality for them to be able to review their previous bookings and document some of their personal information such as a contact number should we need to call them.
+2. Advertisement of offers/ open tournaments where many players can socialise and share their love of the game.
+3. A bulletin section to report and celebrate achievements by children in the Kids Club with their parents' permission.
+
+### Accessibility
+
+In order to ensure that this website is as accessible friendly as possible, the following measures have been taken:
+
+* Using semantic HTML elements.
+* Providing descriptive alt attributes for all images for users with visual impairments.
+* Providing information for screen readers for vaious feautures on the page including forms, navbar, footer among others.
+* Ensuring there is a sufficient colour contrast throughout the site.
+* Ensuring menu is accessible for screenreaders by marking the current page as current.
+* Designing forms taking accessibility into account, with appropriate labeling where needed.
+
+## Technologies Used
+
+### Languages
