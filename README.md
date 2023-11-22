@@ -93,44 +93,44 @@ The website consists of three pages; Home page, Bookings page and the Kids Club 
 
 All pages are responsive and contain:
 
-* Favicon of the Website 
-  * chosen to match the theme of the site.
+- Favicon of the Website 
+  - chosen to match the theme of the site.
 
 ![screenhot of the favicon](documentation/favicon-img.png)
 
-* Navigation bar
-  * Fully responsive and contains links to all pages as well as the contact details section in the Home page.  On a mobile device this would display a toggle navbar. The title is also a link to the Home page.
+- Navigation bar
+  - Fully responsive and contains links to all pages as well as the contact details section in the Home page.  On a mobile device this would display a toggle navbar. The title is also a link to the Home page.
 
 ![screenshot of the navigation bar](documentation/navbar-img.png)
 
-* Footer
-  * Fully responsive with links that open on a new tab.
+- Footer
+  - Fully responsive with links that open on a new tab.
 
 ![screenshot of the footer](documentation/footer-img.png)
 
-* Landing Page
-  * This would be the first page the user would see, introducing the theme with the image and introductory phrase designed to catch their attention, while offering a glimpse of the benefits/ reasons section that follows as can be seen on the bigger screens.
+- Landing Page
+  - This would be the first page the user would see, introducing the theme with the image and introductory phrase designed to catch their attention, while offering a glimpse of the benefits/ reasons section that follows as can be seen on the bigger screens.
 
 ![screenshot of amiresponsive main page](documentation/amiresponsive-snooker-img.png)
 
-* Interactive map
-  * A map is included within the page to allow users to locate the venue and explore the area around it. Users are given the option to move the map and zoom in and out.
+- Interactive map
+  - A map is included within the page to allow users to locate the venue and explore the area around it. Users are given the option to move the map and zoom in and out.
 
 ![screenshot of amiresponsive map on home page](documentation/amiresponsive-map.png)
 
-* Form on Bookings page
-  * A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
+- Form on Bookings page
+  - A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
 
 ![screenshot of form and buttons on Bookings page](documentation/amiresponsive-bookings-form-and-button.png)
 ![screenshot of submitted form](documentation/submit-bookings.png)
 
-* Media video on Kids Club page
-  * This embedded YouTube video on our kids club page shares the screen horizontally once the screen is 992px or larger.  IT is not set to autoplay and the controls work well in all screen sizes.
+- Media video on Kids Club page
+  - This embedded YouTube video on our kids club page shares the screen horizontally once the screen is 992px or larger.  IT is not set to autoplay and the controls work well in all screen sizes.
 
 ![screenshot of video on Kids Club page](documentation/amiresponsive-video.png)
 
-* Form on Kids Club page
-  * A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
+- Form on Kids Club page
+  - A fully responsive form with a button to submit and another to cancel.  The button to submit user's information takes them to a confirmation page as can be seen in the second screenshot, whereas the cancel button would automatically leave all input fields empty again.
 
 ![screenshot of form and buttons on Kids Club page](documentation/amiresponsive-kids-form-and-button.png)
 ![screenshot of submitted form](documentation/submit-kidsclub.png)
@@ -147,13 +147,70 @@ ideas for future implementations I would like to incude are:
 
 In order to ensure that this website is as accessible friendly as possible, the following measures have been taken:
 
-* Using semantic HTML elements.
-* Providing descriptive alt attributes for all images for users with visual impairments.
-* Providing information for screen readers for vaious feautures on the page including forms, navbar, footer among others.
-* Ensuring there is a sufficient colour contrast throughout the site.
-* Ensuring menu is accessible for screenreaders by marking the current page as current.
-* Designing forms taking accessibility into account, with appropriate labeling where needed.
+- Using semantic HTML elements.
+- Providing descriptive alt attributes for all images for users with visual impairments.
+- Providing information for screen readers for vaious feautures on the page including forms, navbar, footer among others.
+- Ensuring there is a sufficient colour contrast throughout the site.
+- Ensuring menu is accessible for screenreaders by marking the current page as current.
+- Designing forms taking accessibility into account, with appropriate labeling where needed.
 
 ## Technologies Used
 
-### Languages
+### Languages Used
+
+The languages used for the website include HTML and CSS.
+
+### Libraries and Programs Used
+
+[icons8.com](https://icons8.com/icons) to create favicon
+
+[Tiny PNG](https://tinypng.com/) to compress images
+
+[GitHub](https://github.com/) to save and store my website
+
+[Codeanywhere](https://app.codeanywhere.com/) IDE I used for this project
+
+[Font Awesome](fontawesome.com) for the icons used on the site
+
+[Google Fonts](https://fonts.google.com/) to import fonts used on the site
+
+Google Dev tools - to test and fix issues detected
+
+[Am I Responsive?](https://ui.dev/amiresponsive) to show site on all different screen sizes
+
+[Pexels](https://www.pexels.com/) to use free images for site
+
+[Adobe color](https://color.adobe.com/create/color-wheel) to check contrast between of colours used
+
+## Deployment & Local Development
+
+### Deployment to GitHub pages
+
+The site is deployed using GitHub Pages. To deploy using GitHub pages:
+
+1.  Open the project repository.
+2.  Click on "Settings" on the navigation bar under the repository title.
+3.  Click on "Pages" in the left hand navigation panel.
+4.  Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+5.  Choose which folder to deploy from, usually "/root".
+6.  Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
+7.  Your URL will be displayed above "Source".
+
+You can visit the website [here](https://jonathandussot.github.io/valladolid-snooker-club/)
+
+### Local Deployment
+
+#### Hot to Fork
+
+1. Copy the link to this repository.
+2. Log in or sign up to your GitHub account and click on the **Fork** button on the top-right corner.
+3. You should now have a copy included in your account.
+
+#### How to Clone
+
+1. Copy the link to this repository.
+2. Log in or sign up to your GitHub account and click on the **Code** button.
+3. You are given to option to clone using HTTPS or GitHub CLI and copy the link.
+
+## Testing
+
