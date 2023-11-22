@@ -188,13 +188,13 @@ Google Dev tools - to test and fix issues detected
 
 The site is deployed using GitHub Pages. To deploy using GitHub pages:
 
-1.  Open the project repository.
-2.  Click on "Settings" on the navigation bar under the repository title.
-3.  Click on "Pages" in the left hand navigation panel.
-4.  Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
-5.  Choose which folder to deploy from, usually "/root".
-6.  Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
-7.  Your URL will be displayed above "Source".
+1. Open the project repository.
+2. Click on "Settings" on the navigation bar under the repository title.
+3. Click on "Pages" in the left hand navigation panel.
+4. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+5. Choose which folder to deploy from, usually "/root".
+6. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
+7. Your URL will be displayed above "Source".
 
 You can visit the website [here](https://jonathandussot.github.io/valladolid-snooker-club/)
 
@@ -214,3 +214,33 @@ You can visit the website [here](https://jonathandussot.github.io/valladolid-sno
 
 ## Testing
 
+click [here](TESTING.md) to see the all the testing done to the site.
+
+## Credits
+
+### Code Used
+
+When creating the form, I used this code from [tutorialspoint](https://www.tutorialspoint.com/How-to-use-time-input-type-in-HTML) so I could specify the hours I wanted within the input field indicating 'Time' in both bookings page and kidsclub page.
+
+`<datalist id="avail">
+                                <option value="09:00"></option>`
+
+### Content
+
+Most of the points from the About & Reasons section within the home page were summarised from the informationg given on [bestsnookercue website](bestsnookercue.com)
+
+### Media
+
+img blue ball red ball green ball
+
+img kid snooker
+
+img snooker cue and balls
+
+white and reds big
+
+white and reds
+
+video
+
+## Acknowledgements
