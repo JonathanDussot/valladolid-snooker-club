@@ -4,7 +4,7 @@ Valladolid Snooker Club is a website that has the objective of attracting more p
 
 This website aims to appeal to the local audience and encourage them to participate in an ever-growing multi-cultural sport that their country has yet to discover whether it is seeking a hobby after work or meeting with friends.  There are also many UK residents currently residing in the city who share a passion for the sport, and could greatly benefit from having a place which offers them an opportunity to continue playing what they love.
 
-Valladolid Snooker Club also offers classes to kids at a very convenient time for parents to enroll their children seeing as after-school activities are very popular in the city. It simultaneously provides them a method to further develop their motor skills and concentration skills, and learn about a new sport which could potentially develop into a professional career.
+Valladolid Snooker Club also offers classes to kids at a very convenient time for parents to enrol their children seeing as after-school activities are very popular in the city. It simultaneously provides them a method to further develop their motor skills and concentration skills, and learn about a new sport which could potentially develop into a professional career.
 
 ![screenshot of site on amiresponsive](documentation/amiresponsive-snooker-img.png)
 
@@ -19,7 +19,7 @@ You can visit the GitHub Repository [here](https://github.com/JonathanDussot/val
 ### Common Usage
 
 - Valladolid Snooker Club is a physical location within the centre of the city.  Members have the option of booking their table sessions thus ensuring the satisfaction of having everything set up for them once they enter the door as opposed to having to wait for a free table.  
-- Since COVID-19 we have upheld our standards of organisation by providing members with a user-friendly online booking system for all our services; Table sessions for both Snooker and Pool, Coaching Sessions, and the kids classes we offer to under-16 year olds.
+- Since COVID-19 we have upheld our standards of organisation by providing members with a user-friendly online booking system for all our services; Table sessions for both Snooker and Pool, Coaching Sessions, and the kids classes we offer to under-16-year-olds.
 - Valladolid Snooker Club's Kids Club openly displays on the webpage the level of dedication that is given to the generation of talented youth.
 - Due to its fast growth, events are currently being organized so that members may compete in open tournaments categorized into a level which matches their skillset. This information should be shortly advertised on the website in the near future.
 
@@ -51,7 +51,7 @@ I designed the colour palette for the website myself.  Here is the list of colou
 
 - #238901 / RGB(35, 137, 1)
 
-  - This colour would give the user a certain sense of comfort considering its proximity to the colour of a typical table cloth.  This was tken into account upon creating the navigation bar and background colour of the header.  It has also been used throughout parts of the page to continue to have the feeling resonate within the users and their experience.
+  - This colour would give the user a certain sense of comfort considering its proximity to the colour of a typical table cloth.  This was taken into account upon creating the navigation bar and background colour of the header.  It has also been used throughout parts of the page to continue to have the feeling resonate within the users and their experience.
 
 - White (#ffffff)
 
@@ -96,7 +96,7 @@ All pages are responsive and contain:
 - Favicon of the Website 
   - chosen to match the theme of the site.
 
-![screenhot of the favicon](documentation/favicon-img.png)
+![screenshot of the favicon](documentation/favicon-img.png)
 
 - Navigation bar
   - Fully responsive and contains links to all pages as well as the contact details section in the Home page.  On a mobile device this would display a toggle navbar. The title is also a link to the Home page.
@@ -137,7 +137,7 @@ All pages are responsive and contain:
 
 ### Future Implementations
 
-ideas for future implementations I would like to incude are:
+ideas for future implementations I would like to include are:
 
 1. A simple login functionality for them to be able to review their previous bookings and document some of their personal information such as a contact number should we need to call them.
 2. Advertisement of offers/ open tournaments where many players can socialise and share their love of the game.
@@ -149,10 +149,10 @@ In order to ensure that this website is as accessible friendly as possible, the 
 
 - Using semantic HTML elements.
 - Providing descriptive alt attributes for all images for users with visual impairments.
-- Providing information for screen readers for vaious feautures on the page including forms, navbar, footer among others.
+- Providing information for screen readers for various features on the page including forms, navbar, footer among others.
 - Ensuring there is a sufficient colour contrast throughout the site.
-- Ensuring menu is accessible for screenreaders by marking the current page as current.
-- Designing forms taking accessibility into account, with appropriate labeling where needed.
+- Ensuring menu is accessible for screen readers by marking the current page as current.
+- Designing forms taking accessibility into account, with appropriate labelling where needed.
 
 ## Technologies Used
 
@@ -190,7 +190,7 @@ The site is deployed using GitHub Pages. To deploy using GitHub pages:
 
 1. Open the project repository.
 2. Click on "Settings" on the navigation bar under the repository title.
-3. Click on "Pages" in the left hand navigation panel.
+3. Click on "Pages" in the left-hand navigation panel.
 4. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
 5. Choose which folder to deploy from, usually "/root".
 6. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
@@ -220,14 +220,14 @@ click [here](TESTING.md) to see the all the details in regard to the testing don
 
 ### Code Used
 
-When creating the form, I used this code from [tutorialspoint](https://www.tutorialspoint.com/How-to-use-time-input-type-in-HTML) so I could specify the hours I wanted within the input field indicating 'Time' in both bookings page and kidsclub page.
+When creating the form, I used this code from [tutorialspoint](https://www.tutorialspoint.com/How-to-use-time-input-type-in-HTML) so I could specify the hours I wanted within the input field indicating 'Time' in both bookings page and kids club page.
 
 `<datalist id="avail">
                                 <option value="09:00"></option>`
 
 ### Content
 
-Most of the points from the About Us & Reasons section within the home page were summarised from the informationg given on [bestsnookercue website](bestsnookercue.com)
+Most of the points from the About Us & Reasons section within the home page were summarised from the information given on [bestsnookercue website](bestsnookercue.com)
 
 ### Media
 
@@ -257,7 +257,7 @@ The video media file within the kids club page was taken from the [Stephen Hendr
 
 I would like to acknowledge the following people who have been a huge help for my very first milestone project:
 
-- [Lauren-Nicole](https://github.com/CluelessBiker) - My Code Institute Mentor for her vast amount of knowledge, relaxing demeanor and patience!
+- [Lauren-Nicole](https://github.com/CluelessBiker) - My Code Institute Mentor for her vast amount of knowledge, relaxing demeanour and patience!
 
 - [Kera Cudmore](https://github.com/kera-cudmore) - for her constant support through the slack community.
 

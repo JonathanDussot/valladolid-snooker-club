@@ -46,7 +46,7 @@ I used the W3C Validator to validate the HTML and CSS code of the following page
 | Goal | How is this achieved? |
 |---|---|
 |I want to find a reliable booking system to provide me with accurate information in regards to table availability, especially in the case of coaching sessions.| Available times can be found within the Bookings page.|
-|I want to be updated on upcoming events and/or offers.|This is one of our future implementations we hope to address soon.|
+|I want to be updated on upcoming events and/or offers.| This is one of our future implementations we hope to address soon.|
 
 ### Full Testing
 
