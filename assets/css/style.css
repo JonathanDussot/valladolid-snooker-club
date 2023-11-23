@@ -123,7 +123,6 @@ nav {
     top:100%;
 }
 
-
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -137,7 +136,6 @@ nav {
     font-size: 3rem;
     color: #ffffff;
 }
-
 
 /*main content */
 main {
@@ -260,7 +258,6 @@ iframe {
     width: 100%;
 }
 
-
 /* Bookings */
 
 #snooker-hall {
@@ -317,7 +314,6 @@ label {
     margin-bottom: 15px;
 }
 
-
 #table-type input {
     margin: 0.3rem;
 }
@@ -347,7 +343,6 @@ label {
     background-color: rgb(160, 159, 159);
 }
 
-
 /* Kid's club */
 #kids-club {
     height: 400px;
@@ -372,8 +367,6 @@ label {
     font-family: 'Playpen Sans', sans-serif;
     text-transform: capitalize;
     letter-spacing: 0;
-
-
 }
 
 #coach {
@@ -420,7 +413,6 @@ iframe {
     font-size: large;
     font-weight: bold;
 }
-
 
 /* Footer */
 footer {

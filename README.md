@@ -1,5 +1,7 @@
 # Valladolid Snooker Club
+
 ## Project Overview
+
 Valladolid Snooker Club is a website that has the objective of attracting more people to take up playing Snooker and see the beneficial and fun aspects of it.  It facilitates users with the possibility to meet at the venue and share their passion for the sport regardless of their age or skill.
 
 This website aims to appeal to the local audience and encourage them to participate in an ever-growing multi-cultural sport that their country has yet to discover whether it is seeking a hobby after work or meeting with friends.  There are also many UK residents currently residing in the city who share a passion for the sport, and could greatly benefit from having a place which offers them an opportunity to continue playing what they love.
@@ -9,9 +11,11 @@ Valladolid Snooker Club also offers classes to kids at a very convenient time fo
 ![screenshot of site on amiresponsive](documentation/amiresponsive-snooker-img.png)
 
 ### Live website
+
 You can visit the website [here](https://jonathandussot.github.io/valladolid-snooker-club/)
 
 ### My GitHub Repository
+
 You can visit the GitHub Repository [here](https://github.com/JonathanDussot/valladolid-snooker-club)
 
 ## User Experience (UX)
@@ -93,7 +97,7 @@ The website consists of three pages; Home page, Bookings page and the Kids Club 
 
 All pages are responsive and contain:
 
-- Favicon of the Website 
+- Favicon of the Website
   - chosen to match the theme of the site.
 
 ![screenshot of the favicon](documentation/favicon-img.png)
@@ -153,6 +157,8 @@ In order to ensure that this website is as accessible friendly as possible, the 
 - Ensuring there is a sufficient colour contrast throughout the site.
 - Ensuring menu is accessible for screen readers by marking the current page as current.
 - Designing forms taking accessibility into account, with appropriate labelling where needed.
+
+WAVE displays an error within the navbar stating there is no aria-label.  However, I did give it an aria-label, and have not addressed the issue since it is the collapsible nav given in the walkthrough.
 
 ## Technologies Used
 

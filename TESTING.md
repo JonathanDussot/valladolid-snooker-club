@@ -28,6 +28,7 @@ I used the W3C Validator to validate the HTML and CSS code of the following page
 ### Testing User Stories
 
 #### First Time Visitors
+
 | Goal | How is this achieved? |
 |---|---|
 |I want to find out about the club, its prices, its variety of services and how to sign up.| The home page provides this information and how to contact us.|
@@ -36,6 +37,7 @@ I used the W3C Validator to validate the HTML and CSS code of the following page
 |I want to find the club's location and have easy access to contact information should I need it.| This is also found at the bottom of the home page with contact information and a map provided by Google Maps.|
 
 #### First time Carers interested in Kids Club sessions
+
 | Goal | How is this achieved? |
 |---|---|
 |I want to find out more information as to who will be coaching my child.| The Kids Club page gives information regarding the coach handling Kids Club.|
@@ -43,6 +45,7 @@ I used the W3C Validator to validate the HTML and CSS code of the following page
 |I want to get the schedule of the sessions and determine its convenience according to my child's school timetable.| The coaching days & times can clearly be seen in the Kids Club page.|
 
 #### Existing Members
+
 | Goal | How is this achieved? |
 |---|---|
 |I want to find a reliable booking system to provide me with accurate information in regards to table availability, especially in the case of coaching sessions.| Available times can be found within the Bookings page.|
