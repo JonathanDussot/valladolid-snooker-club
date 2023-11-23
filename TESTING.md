@@ -21,7 +21,15 @@ I used the W3C Validator to validate the HTML and CSS code of the following page
 
 ## Wave
 
+I used WAVE to verify the performance of the site. All tests passed on all pages with exception of error I addressed in accessibility section.
+
+![screenshot of performance on WAVE](documentation/wave-performance-screenshot.png)
+
 ## Lighthouse
+
+I used lighthouse in Google DevTools to verify the site passed all tests. Other pages had similar results.
+
+![screenshot of performance on Lighthouse](documentation/lighthouse-performance-screenshot.png)
 
 ## Manual Testing
 
@@ -55,7 +63,7 @@ I used the W3C Validator to validate the HTML and CSS code of the following page
 
 Full Testing was performed on each of the following features:
 
-- Sizing was verified through the amiresponsive website to check all screen sizes.
+- Sizing was verified through Google DevTools to check all screen sizes.
 - Navbar's logo and links direct to the appropriate destination.  Navbar correctly indicates current page on all screen sizes.
 - Footer links all direct to correct websites, hover effect functions with larger screens.
 - Forms' functions were tested and all passed:
