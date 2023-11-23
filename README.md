@@ -51,7 +51,9 @@ You can visit the GitHub Repository [here](https://github.com/JonathanDussot/val
 
 ### colour scheme
 
-I designed the colour palette for the website myself.  Here is the list of colours used:
+I designed the colour palette for the website myself. I only used [colormind.io](http://colormind.io/) to display the color palette of primary colours used.  Here is the list of colours used:
+
+![screenshot of primary colours on colormind.io](documentation/colour-screenshot.png)
 
 - #238901 / RGB(35, 137, 1)
 
@@ -187,6 +189,8 @@ Google Dev tools - to test and fix issues detected
 [Pexels](https://www.pexels.com/) to use free images for site
 
 [Adobe color](https://color.adobe.com/create/color-wheel) to check contrast between of colours used
+
+[Colormind.io](http://colormind.io/) to generate color palette used.
 
 ## Deployment & Local Development
 
