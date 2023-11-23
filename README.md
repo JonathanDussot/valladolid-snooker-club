@@ -191,7 +191,7 @@ The site is deployed using GitHub Pages. To deploy using GitHub pages:
 1. Open the project repository.
 2. Click on "Settings" on the navigation bar under the repository title.
 3. Click on "Pages" in the left-hand navigation panel.
-4. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+4. Under "Source", choose which branch to deploy. This should be Main for newer repositories.
 5. Choose which folder to deploy from, usually "/root".
 6. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
 7. Your URL will be displayed above "Source".
@@ -200,7 +200,7 @@ You can visit the website [here](https://jonathandussot.github.io/valladolid-sno
 
 ### Local Deployment
 
-#### Hot to Fork
+#### How to Fork
 
 1. Copy the link to this repository.
 2. Log in or sign up to your GitHub account and click on the **Fork** button on the top-right corner.
@@ -259,6 +259,6 @@ I would like to acknowledge the following people who have been a huge help for m
 
 - [Lauren-Nicole](https://github.com/CluelessBiker) - My Code Institute Mentor for her vast amount of knowledge, relaxing demeanour and patience!
 
-- [Kera Cudmore](https://github.com/kera-cudmore) - for her constant support through the slack community.
+- [Kera Cudmore](https://github.com/kera-cudmore) - for her constant support through the slack community and tutorials.
 
 - Arwen Dussot - my newborn daughter for keeping me awake at night and 'on my toes' so to speak.
