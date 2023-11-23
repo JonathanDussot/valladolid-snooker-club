@@ -91,6 +91,28 @@ I used Google Fonts to import the following:
 
 All the images added to the site are related to the sport. I wanted to use warm and appealing images to give the user the sense of wanting to be there themselves.
 
+### Wireframes
+
+I created these wireframes using Balsamiq.
+
+#### Home Page
+
+This is the home page.
+
+![screenshot of home page on Balsamiq](documentation/balsamiq-home-page.png)
+
+#### Bookings Page
+
+Some minor changes were made to the form but overall original structure was kept. Background image is added for larger screens.
+
+![screenshot of bookings page on Balsamiq](documentation/balsamiq-bookings-page.png)
+
+#### Kids Club Page
+
+media video player shares the screen horizontally with the coach introduction textbox in larger screens.
+
+![screenshot of kids club page on Balsamiq](documentation/balsamiq-kids-club-page.png)
+
 ## Features
 
 ### General Features on each page
@@ -170,27 +192,29 @@ The languages used for the website include HTML and CSS.
 
 ### Libraries and Programs Used
 
-[icons8.com](https://icons8.com/icons) to create favicon
+[icons8.com](https://icons8.com/icons) to create favicon.
 
-[Tiny PNG](https://tinypng.com/) to compress images
+[Tiny PNG](https://tinypng.com/) to compress images.
 
-[GitHub](https://github.com/) to save and store my website
+[GitHub](https://github.com/) to save and store my website.
 
-[Codeanywhere](https://app.codeanywhere.com/) IDE I used for this project
+[Codeanywhere](https://app.codeanywhere.com/) IDE I used for this project.
 
-[Font Awesome](fontawesome.com) for the icons used on the site
+[Font Awesome](fontawesome.com) for the icons used on the site.
 
-[Google Fonts](https://fonts.google.com/) to import fonts used on the site
+[Google Fonts](https://fonts.google.com/) to import fonts used on the site.
 
-Google Dev tools - to test and fix issues detected
+Google Dev tools - to test and fix issues detected.
 
-[Am I Responsive?](https://ui.dev/amiresponsive) to show site on all different screen sizes
+[Am I Responsive?](https://ui.dev/amiresponsive) to show site on all different screen sizes.
 
-[Pexels](https://www.pexels.com/) to use free images for site
+[Pexels](https://www.pexels.com/) to use free images for site.
 
-[Adobe color](https://color.adobe.com/create/color-wheel) to check contrast between of colours used
+[Adobe color](https://color.adobe.com/create/color-wheel) to check contrast between of colours used.
 
 [Colormind.io](http://colormind.io/) to generate color palette used.
+
+[Balsamiq](https://balsamiq.com/) - to create wireframes.
 
 ## Deployment & Local Development
 
