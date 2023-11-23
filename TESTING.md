@@ -2,9 +2,25 @@
 
 ![screenshot of site on amiresponsive](documentation/amiresponsive-snooker-img.png)
 
-### Live website
+## Live website
 
 You can visit the website [here](https://jonathandussot.github.io/valladolid-snooker-club/)
+
+## CONTENTS
+
+- [Valladolid Snooker Club - Testing](#valladolid-snooker-club---testing)
+  - [Live website](#live-website)
+  - [CONTENTS](#contents)
+  - [W3C Validator](#w3c-validator)
+  - [Wave](#wave)
+  - [Lighthouse](#lighthouse)
+  - [Manual Testing](#manual-testing)
+    - [Testing User Stories](#testing-user-stories)
+      - [First Time Visitors](#first-time-visitors)
+      - [First time Carers interested in Kids Club sessions](#first-time-carers-interested-in-kids-club-sessions)
+      - [Existing Members](#existing-members)
+    - [Full Testing](#full-testing)
+  - [Solved Bugs](#solved-bugs)
 
 ## W3C Validator
 
@@ -73,7 +89,7 @@ Full Testing was performed on each of the following features:
 - Video displays adequately on all screen sizes, and is not set to autoplay.
 - Map is responsive and allows user to interact without any issues.
 
-## Bugs
+## Solved Bugs
 
 - Media video on kidsclub.html wouldn't let me make it narrower.  Upon inspecting the code using Google DevTools, I discovered it was due to a line on css:269 which had it set to 100%. This was corrected and fixed in order to modify size and change structure for larger screens.
 

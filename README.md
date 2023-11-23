@@ -10,13 +10,53 @@ Valladolid Snooker Club also offers classes to kids at a very convenient time fo
 
 ![screenshot of site on amiresponsive](documentation/amiresponsive-snooker-img.png)
 
-### Live website
+### Live Website
 
 You can visit the website [here](https://jonathandussot.github.io/valladolid-snooker-club/)
 
 ### My GitHub Repository
 
 You can visit the GitHub Repository [here](https://github.com/JonathanDussot/valladolid-snooker-club)
+
+## CONTENTS
+
+- [Valladolid Snooker Club](#valladolid-snooker-club)
+  - [Project Overview](#project-overview)
+    - [Live Website](#live-website)
+    - [My GitHub Repository](#my-github-repository)
+  - [CONTENTS](#contents)
+  - [User Experience (UX)](#user-experience-ux)
+    - [Common Usage](#common-usage)
+  - [User Stories](#user-stories)
+    - [First Time Visitors](#first-time-visitors)
+    - [First time Carers interested in Kids Club sessions](#first-time-carers-interested-in-kids-club-sessions)
+    - [Existing Members](#existing-members)
+  - [Design](#design)
+    - [colour scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+      - [Home Page](#home-page)
+      - [Bookings Page](#bookings-page)
+      - [Kids Club Page](#kids-club-page)
+  - [Features](#features)
+    - [General Features on each page](#general-features-on-each-page)
+    - [Future Implementations](#future-implementations)
+    - [Accessibility](#accessibility)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Libraries and Programs Used](#libraries-and-programs-used)
+  - [Deployment And Local Development](#deployment-and-local-development)
+    - [Deployment to GitHub pages](#deployment-to-github-pages)
+    - [Local Deployment](#local-deployment)
+      - [How to Fork](#how-to-fork)
+      - [How to Clone](#how-to-clone)
+  - [Testing](#testing)
+  - [Credits](#credits)
+    - [Code Used](#code-used)
+    - [Content](#content)
+    - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
 
@@ -216,7 +256,7 @@ Google Dev tools - to test and fix issues detected.
 
 [Balsamiq](https://balsamiq.com/) - to create wireframes.
 
-## Deployment & Local Development
+## Deployment And Local Development
 
 ### Deployment to GitHub pages
 
